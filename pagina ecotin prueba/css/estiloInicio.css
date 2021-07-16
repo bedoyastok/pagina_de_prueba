@@ -1,0 +1,89 @@
+/*SELECTORES*/
+
+/*Selector universal*/
+body
+{
+	background-image: url("../imagenesEcotin/patron2.jpg");
+	/*agrgar los dos puntos para devolverse a la carpeta*/
+	font-family: Verdana, Geneva, Tahoma; /*tipo de letra*/
+	background-size: auto; 
+	background-attachment: fixed;/*fijar el fondo*/
+	margin: 0px;
+	padding: 0px;
+} 
+
+
+/*--------------------header--------------------*/
+nav/*cabecera en general*/
+{
+	display: flex;/*permite ajustar facilmente el logo y la navegacion*/
+	background-color: green;/*color del fondo de la cabecera*/
+	padding: 5px;
+	color: white;/*color letra*/
+	justify-content: space-between;/*pone el contenido a los extremos*/
+	align-items: center;/*alinea horizontalmete los elementos*/
+}
+
+nav ul/*todos los elemntos de la lista*/
+{
+	display: flex;
+}
+
+nav li/*elementos tipo lista*/
+{
+	list-style: none;/*elimminar viñetas*/
+}
+
+nav li a
+{
+	text-decoration: none;
+	padding: 10px;
+	color: white;
+}
+/*--------------------header--------------------*/
+
+
+/*--------------------image header---------------*/
+.imagenEcotin
+{
+	margin: 50px 0;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+/*--------------------image header---------------*/
+
+
+/*-------------------content---------------------*/
+/*Selector de id se inicia con #*/
+#descripcion
+{
+	margin: 30px;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: white;
+	padding: 10px;
+}
+/*-------------------content---------------------*/
+
+
+/*----------------footer--------------------*/
+footer
+{
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	padding: 0px;
+	margin: 100px 0px 0px 0px;
+}
+/*----------------footer--------------------*/
+
+
+/*.container
+{
+	max-width: 1000px;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	align-items: center;
+}*/

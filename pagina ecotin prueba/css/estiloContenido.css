@@ -1,0 +1,27 @@
+/*SELECTORES*/
+
+/*Selector universal*/
+*
+{
+	font-family: Verdana, Geneva, Tahoma; /*tipo de letra*/
+}
+
+/*Selector de etiqueta*/
+h1
+{
+	background: #16973C; /*fondo*/
+	color: white;
+	padding: 50px; /*relleno del fondo*/
+}
+
+a
+{
+	font-size: 18px; /*tamaño letra*/
+	color: black;
+	text-decoration: none; /*eliminar decoracion*/
+}
+
+table
+{
+	border: 1px solid black;
+}
